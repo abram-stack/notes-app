@@ -22,7 +22,6 @@ button:focus{
   overflow-y: auto;
 }
 .sidebar {
-  border: 1px solid red;
   width: 20%;
   height: 100vh;
 }
@@ -47,7 +46,6 @@ button:focus{
 }
 
 .title{
-  border: 1px solid blue;
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -78,4 +76,14 @@ button:focus{
 .editor{
   width: 80%;
   height: 100vh;
+}
+
+.no-notes {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
 }
